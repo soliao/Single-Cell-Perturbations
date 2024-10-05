@@ -12,6 +12,9 @@ Heterogeneous graph is created with two types of nodes - **Cell type nodes** and
 ![image](https://github.com/user-attachments/assets/b1c51c47-4ba6-417a-8654-9b1c7451713f)
 
 ## Prediction
+
+For each pair of (cell type, small molecule) nodes, the perturbation prediction is made by concatenating their respective node embeddings and passing through one to several linear layers.
+
 ![image](https://github.com/user-attachments/assets/cb6bd62d-0edc-42b9-8011-4167887869f7)
 
 ## Leverage Multiome Gene Expression Data
